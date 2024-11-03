@@ -1,0 +1,117 @@
+body{
+    margin-top: 80px; 
+    background-image: linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0.7)),url(/page1/download.png);
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.options{
+    color: white;
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: rgb(141, 122, 98);
+    cursor: pointer;
+}
+.apple{
+    margin-top: 5px;
+}
+.apple a{
+    color: rgb(26, 20, 20);
+    font-weight: 750;
+    transition: 0.4s;
+
+}
+.apple:hover{
+    background-color: beige;
+}
+.google a{
+    color: rgb(26, 20, 20);
+    font-weight: 750;
+    transition: 0.4s;    
+}
+.google:hover{
+    background-color: beige;
+}
+
+.options h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.options h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.options h3{
+    font-weight: lighter;
+    color: rgb(43, 41, 39);
+}
+.options h4{
+    color: white;
+    font-size: 17px;
+}
+.create{
+    background-color: rgba(45, 158, 211, 0.89);
+}
+.create a{
+    color: white;
+    font-weight: 750;
+}
+.create:hover{
+    background-color: rgb(33, 82, 110);
+}
+p{
+    font-size: small;
+}
+.sign{
+    color: rgb(0, 110, 255);
+    background-color: rgba(5, 5, 5, 0.7);
+    margin-top: -15px;
+    transition: 0.4s;
+    font-weight: 750;
+    
+}
+.sign:hover{
+    background-color: rgba(38, 68, 82, 0.671);
+}
+.help{
+    display: flex;
+    gap: 12px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.help a{ 
+    font-size: 13px;
+    color: rgb(152, 154, 156);
+    transition: 0.4s;
+}
+.help a:hover{
+    text-decoration: underline rgb(152, 154, 156);
+}
+.last{
+    gap: 12px;
+    margin-left: 42vw;
+    display: flex;
+}
+.last a{
+    font-size: 13px;
+    color: rgb(152, 154, 156);    
+}
+.last a:hover{
+    text-decoration: underline rgb(152, 154, 156);    
+}
+
+
+.last p{
+    font-size: 13px;
+    color: rgb(152, 154, 156);
+}

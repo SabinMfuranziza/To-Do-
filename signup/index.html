@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Of Birth</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class="inputs">
+            <h1>Create your account</h1>
+            <form onsubmit="returnvalidateForm">
+                <input type="text" id="name" class="large-input" placeholder="Name" required>
+                <input type="number" id="phone" class="large-input" placeholder="Phone" required>
+            
+                <div class="eml"><a href="#">Use email instead</a></div>
+
+                <h2>Date of birth</h2>
+                <p>This will not be shown publicly. Confirm your own age,even if this<br>account is for a business,a pet, or something else</p>
+
+                <div class="dob" id="birthdate">
+                    <label for="day"></label>
+                    <input type="number" id="day" class="dob-input" placeholder="DD" min="1" max="31" required>
+
+                    <label for="month"></label>
+                    <input type="number" id="month" class="dob-input" placeholder="MM" min="1" max="12" required>
+
+                    <label for="year"></label>
+                    <input type="number" id="year" class="dob-input" placeholder="YYYY" min="1904" max="2024" required>
+                </div>
+                
+            </form>
+            <button class="btn1" onclick="calculateAge()"><a href="">Submit</a></button>
+        </div>
+    </section>
+</body>
+
+</html>
+
