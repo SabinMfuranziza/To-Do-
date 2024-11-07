@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    color: white;
+}
+body{
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.all{
+    background-image: linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0.7)),url(/My-Web/moon-night-silhouette-yellow-dream-3512x2193-77.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.me h1{
+    font-size: 50px;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 700px;
+    padding-top: 30px;
+}
+.intro a{
+    color: white;
+    text-decoration: none;
+}
+.intro a:hover{
+    text-decoration: underline;
+    color: orangered;
+    font-size: 23px;
+    transition: 0.7s;
+}
+.me{
+    margin-left: 140px;
+    margin-top: 200px;
+}
+.more{
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    background: transparent;
+    border: 1px solid orangered;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.more:hover{
+    background-color: orangered;
+    transition: 0.7s;
+    width: 175px;
+    height: 65px; 
+}
+.me p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.me h3{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+.clock{
+    font-size: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(87, 28, 11, 0.5);
+    margin-left: 700px;
+    margin-top: -300px;
+    width: 450px;
+    cursor: pointer;
+}
+.clock:hover{
+    transition: 0.7s;
+    width: 500px;
+    font-size: 120px;
+
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 700px;
+}
+.intro a{
+    color: white;
+    text-decoration: none;
+}
+.intro a:hover{
+    text-decoration: underline;
+    color: orangered;
+    font-size: 23px;
+    transition: 0.7s;
+}
+.image{
+    flex: 1;
+    margin-left: -700px;
+    margin-top: -180px;
+
+}
+.image img{
+    height: 80vh;
+    width: 90%;
+}
+.descr{
+    margin-left: 55vw;
+    margin-top: 30vh;
+    height: 100vh;
+    display: flex;
+}
+.descr h1{
+    font-size: 35px;
+}
+.descr p{
+    font-size: 13px;
+}
+
+.description{
+    margin-left: 40%;
+    margin-top: 5px;
+}
+.description h2{
+    margin-top: 50px;
+}
+.description p{
+    margin-left: -250px;
+    margin-top: 15px;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+    width: 30%;
+}
+.name{
+    height: 30px;
+    border: 1px solid orangered;
+    background: transparent;
+}
+.message{
+    height: 100px;
+    border: 1px solid orangered;
+    background: transparent;
+}
+.inputs{
+    display: flex;
+    gap: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
